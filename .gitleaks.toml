@@ -1,0 +1,7 @@
+[extend]
+useDefault = true
+
+[[rules]]
+id = "lab-aws-example"
+description = "Detect planted AWS example key"
+regex = '''AKIAIOSFODNN7EXAMPLE'''
